@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import com.fabiomatos.cursomc.domain.Produto;
 
 @Repository
-public interface ProdutoRepository extends CrudRepository<Produto, Long>{
+public interface ProdutoRepository extends CrudRepository<Produto, Long> {
 
 	Optional<Produto> findById(Integer id);
 
